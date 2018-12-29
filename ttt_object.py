@@ -78,7 +78,7 @@ class TicTacToe:
             return True
         return False
 
-    def __str__(self):
+    def print_board(self):
         s = self.state
         print('     {} | {} | {} '.format(s[0], s[1], s[2]))
         print('    -----------')
