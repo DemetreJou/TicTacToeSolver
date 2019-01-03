@@ -24,9 +24,19 @@ TicTacToe seemed like an obvious choice as it has simple rules and small-ish sam
 
 Also has more traditional minimax strategy than I can compare to\
 
-## More about Q-Learning
+## More about this Q-Learning
 
-TODO: add some basic information
+Rewards:
+1 for win
+0 for tie
+-1 for loss
+
+The agent is trained against itself
+
+At 0 episodes the moves are completely random so player X's win/loss is random
+
+At 50,000 episode, when playing against itself, the AI will always tie as expected
+
 
 
 
